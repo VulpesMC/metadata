@@ -1,1 +1,11 @@
-{}
+{
+    "nova": {
+        "client": {
+            "notification": {
+                "roundCreate": {
+                    "msg": "%prefix% Round %roundFancyName% has been created!"
+                }
+            }
+        }
+    }
+}
