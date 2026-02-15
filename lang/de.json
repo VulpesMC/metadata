@@ -4,6 +4,9 @@
             "notification": {
                 "roundCreate": {
                     "msg": "%prefix% Runde%roundFancyName% wurde erstellt!"
+                },
+                "roundDelete": {
+                    "msg": "%prefix% Runde%roundFancyName% wurde gelöscht!"
                 }
             }
         }
