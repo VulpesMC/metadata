@@ -3,10 +3,10 @@
         "client": {
             "notification": {
                 "roundCreate": {
-                    "msg": "<gray>%info% %prefix_nova% Round <light_purple>%roundFancyName%</light_purple> has been <green>created</green>!</gray>"
+                    "msg": "<gray>%info% %prefix_nova% %dot% Round <light_purple>%roundFancyName%</light_purple> has been <green>created</green>!</gray>"
                 },
                 "roundDelete": {
-                    "msg": "<gray>%info% %prefix_nova% Round <light_purple>%roundFancyName%</light_purple> has been <red>deleted</red>!</gray>"
+                    "msg": "<gray>%info% %prefix_nova% %dot% Round <light_purple>%roundFancyName%</light_purple> has been <red>deleted</red>!</gray>"
                 }
             }
         }
