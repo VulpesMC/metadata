@@ -1,0 +1,43 @@
+{
+    "NOVA": {
+        "MINIGAMES": {
+            "freeze-tag": {
+                "fancyName": "Freeze Tag",
+                "MODES": {
+                    "default": {
+                        "fancyName": "Default",
+                        "minPlayers": 4,
+                        "maxPlayers": 16,
+                        "minWaitingRounds": 1,
+                        "allowSpectators": true,
+                        "allowDefaultFullJoinPermission": true,
+                        "fullJoinPermission": "nova.minigames.freeze-tag.join.full",
+                        "SPECIFIC": {
+                            "waiting": {
+                                "WORLD": {
+                                    "categoryName": "NOVA-freeze-tag-waiting",
+                                    "worldNames": "*"
+                                },
+                                "allowTimerSkipCommand": true,
+                                "allowDefaultForceSkipPermission": true,
+                                "forceSkipPermission": "nova.minigames.freeze-tag.skip.waiting.force",
+                                "defaultWaitingTimeSeconds": 120,
+                                "allowDefaultForceStartPermission": true,
+                                "forceStartPermission": "nova.minigames.freeze-tag.start.waiting.force"
+                            },
+                            "playing": {
+                                "WORLD": {
+                                    "categoryName": "NOVA-freeze-tag-playing",
+                                    "worldNames": "*"
+                                },
+                                "defaultPlayingTimeSeconds": 600,
+                                "allowDefaultForceEndPermission": true,
+                                "forceEndPermission": "nova.minigames.freeze-tag.end.playing.force"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
