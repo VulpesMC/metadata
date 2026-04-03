@@ -1,0 +1,9 @@
+{
+    "UPDATER": {
+        "TASK": {
+            "lobby": {
+                "TASKS": "minestom-server, fragment.lobby"
+            }
+        }
+    }
+}

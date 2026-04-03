@@ -1,0 +1,28 @@
+{
+    "UPDATER": {
+        "TASKS": {
+            "minestom-server": {
+                "ACTION": "default",
+                "remoteFileName": "VulpesMC-server-minestom.jar",
+                "localFileName": "server.jar"
+            },
+            "velocity-plugin": {
+                "ACTION": "default",
+                "remoteFileName": "velocity-VulpesUtils.jar",
+                "localFileName": "plugins/velocity-VulpesUtils.jar"
+            },
+            "fragment": {
+                "lobby": {
+                    "ACTION": "default",
+                    "remoteFileName": "minestom-fragment-lobby.jar",
+                    "localFileName": "fragments/minestom-fragment-lobby.jar"
+                },
+                "nova-host": {
+                    "ACTION": "default",
+                    "remoteFileName": "minestom-fragment-nova-host.jar",
+                    "localFileName": "fragments/minestom-fragment-nova-host.jar"
+                }
+            }
+        }
+    }
+}
