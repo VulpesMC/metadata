@@ -3,23 +3,27 @@
         "TASKS": {
             "minestom-server": {
                 "ACTION": "default",
-                "remoteFileName": "VulpesMC-server-minestom.jar",
+                "remoteProjectName": "server-minestom",
+                "remoteBranchName": "development",
                 "localFileName": "server.jar"
             },
             "velocity-plugin": {
                 "ACTION": "default",
-                "remoteFileName": "velocity-VulpesUtils.jar",
+                "remoteProjectName": "VulpesUtils",
+                "remoteBranchName": "development",
                 "localFileName": "plugins/velocity-VulpesUtils.jar"
             },
             "fragment": {
                 "lobby": {
                     "ACTION": "default",
-                    "remoteFileName": "minestom-fragment-lobby.jar",
+                    "remoteProjectName": "fragment-lobby",
+                    "remoteBranchName": "development",
                     "localFileName": "fragments/minestom-fragment-lobby.jar"
                 },
                 "nova-host": {
                     "ACTION": "default",
-                    "remoteFileName": "minestom-fragment-nova-host.jar",
+                    "remoteProjectName": "fragment-nova-host",
+                    "remoteBranchName": "development",
                     "localFileName": "fragments/minestom-fragment-nova-host.jar"
                 }
             }
