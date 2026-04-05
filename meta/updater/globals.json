@@ -26,6 +26,14 @@
                     "remoteBranchName": "development",
                     "localFileName": "fragments/minestom-fragment-nova-host.jar"
                 }
+            },
+            "minigame": {
+                "freeze-tag": {
+                    "ACTION": "default",
+                    "remoteProjectName": "mg-freeze-tag",
+                    "remoteBranchName": "development",
+                    "localFileName": "fragments/minigames-mg-freeze-tag.jar"
+                }
             }
         }
     }

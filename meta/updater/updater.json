@@ -5,7 +5,7 @@
                 "TASKS": "minestom-server, fragment.lobby"
             },
             "freeze-tag": {
-                "TASKS": "minestom-server, fragment.nova-host"
+                "TASKS": "minestom-server, fragment.nova-host, minigame.freeze-tag"
             }
         }
     }
