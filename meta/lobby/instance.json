@@ -2,6 +2,7 @@
     "LOBBY": {
         "INSTANCE": {
             "NAME": "enderia",
+            "CATEGORY": "Main-Lobby",
             "SPAWN": {
                 "X": 334.5,
                 "Y": 5.0,
