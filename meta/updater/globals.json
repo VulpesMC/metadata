@@ -33,6 +33,12 @@
                     "remoteProjectName": "mg-freeze-tag",
                     "remoteBranchName": "development",
                     "localFileName": "fragments/minigames-mg-freeze-tag.jar"
+                },
+                "bridge-fight": {
+                    "ACTION": "default",
+                    "remoteProjectName": "mg-bridge-fight",
+                    "remoteBranchName": "development",
+                    "localFileName": "fragments/minigames-mg-bridge-fight.jar"
                 }
             }
         }
