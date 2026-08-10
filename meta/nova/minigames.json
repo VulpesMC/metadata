@@ -40,6 +40,47 @@
                         }
                     }
                 }
+            },
+            "bridge-fight": {
+                "fancyName": "Bridge Fight",
+                "modes": "solo",
+                "CONFIGURATION": {
+                    "MODES": {
+                        "solo": {
+                            "fancyName": "Solos",
+                            "minPlayers": 2,
+                            "maxPlayers": 8,
+                            "minWaitingRounds": 1,
+                            "allowSpectators": true,
+                            "allowDefaultFullJoinPermission": true,
+                            "fullJoinPermission": "nova.minigames.bridge-fight.join.full",
+                            "SPECIFIC": {
+                                "waiting": {
+                                    "WORLD": {
+                                        "categoryName": "NOVA-bridge-fight-waiting",
+                                        "worldNames": "*"
+                                    },
+                                    "allowTimerSkipCommand": true,
+                                    "allowDefaultForceSkipPermission": true,
+                                    "forceSkipPermission": "nova.minigames.bridge-fight.skip.waiting.force",
+                                    "defaultWaitingTimeSeconds": 120,
+                                    "allowDefaultForceStartPermission": true,
+                                    "forceStartPermission": "nova.minigames.bridge-fight.start.waiting.force"
+                                },
+                                
+                                "playing": {
+                                    "WORLD": {
+                                        "categoryName": "NOVA-freeze-tag-playing",
+                                        "worldNames": "*"
+                                    },
+                                    "defaultPlayingTimeSeconds": 600,
+                                    "allowDefaultForceEndPermission": true,
+                                    "forceEndPermission": "nova.minigames.freeze-tag.end.playing.force"
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
