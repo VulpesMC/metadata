@@ -2,59 +2,33 @@
     "nova": {
         "client": {
             "notification": {
-                "roundCreate": {
-                    "msg": "<gray>%info% %prefix_nova% %dot% Round <light_purple>%roundFancyName%</light_purple> has been <green>created</green>!</gray>"
-                },
-                "roundDelete": {
-                    "msg": "<gray>%info% %prefix_nova% %dot% Round <light_purple>%roundFancyName%</light_purple> has been <red>deleted</red>!</gray>"
-                }
+                "roundCreate": "<gray>%info% %prefix_nova% %dot% Round <light_purple>%roundFancyName%</light_purple> has been <green>created</green>!</gray>",
+                "roundDelete": "<gray>%info% %prefix_nova% %dot% Round <light_purple>%roundFancyName%</light_purple> has been <red>deleted</red>!</gray>"
             }
         }
     },
     "economy": {
         "command": {
-            "player-not-found": {
-                "msg": "%error% %prefix_main% %dot% <red>Player not found.</red>"
-            },
-            "invalid-amount": {
-                "msg": "%error% %prefix_main% %dot% <red>The amount must be greater than zero.</red>"
-            },
+            "player-not-found": "%error% %prefix_main% %dot% <red>Player not found.</red>",
+            "invalid-amount": "%error% %prefix_main% %dot% <red>The amount must be greater than zero.</red>",
             "set": {
-                "success": {
-                    "msg": "%success% %prefix_main% %dot% Set <gold>[player]</gold>'s <yellow>[currency]</yellow> balance to <green>[amount]</green>."
-                },
-                "failed": {
-                    "msg": "%error% %prefix_main% %dot% <red>Failed to set <gold>[player]</gold>'s <yellow>[currency]</yellow> balance.</red>"
-                }
+                "success": "%success% %prefix_main% %dot% Set <gold>[player]</gold>'s <yellow>[currency]</yellow> balance to <green>[amount]</green>.",
+                "failed": "%error% %prefix_main% %dot% <red>Failed to set <gold>[player]</gold>'s <yellow>[currency]</yellow> balance.</red>"
             },
             "add": {
-                "success": {
-                    "msg": "%success% %prefix_main% %dot% Added <green>[amount]</green> <yellow>[currency]</yellow> to <gold>[player]</gold>."
-                },
-                "failed": {
-                    "msg": "%error% %prefix_main% %dot% <red>Failed to add <green>[amount]</green> <yellow>[currency]</yellow> to <gold>[player]</gold>."
-                }
+                "success": "%success% %prefix_main% %dot% Added <green>[amount]</green> <yellow>[currency]</yellow> to <gold>[player]</gold>.",
+                "failed": "%error% %prefix_main% %dot% <red>Failed to add <green>[amount]</green> <yellow>[currency]</yellow> to <gold>[player]</gold>."
             },
             "remove": {
-                "success": {
-                    "msg": "%success% %prefix_main% %dot% Removed <red>[amount]</red> <yellow>[currency]</yellow> from <gold>[player]</gold>."
-                },
-                "failed": {
-                    "msg": "%error% %prefix_main% %dot% <red>Failed to remove <red>[amount]</red> <yellow>[currency]</yellow> from <gold>[player]</gold>."
-                }
+                "success": "%success% %prefix_main% %dot% Removed <red>[amount]</red> <yellow>[currency]</yellow> from <gold>[player]</gold>.",
+                "failed": "%error% %prefix_main% %dot% <red>Failed to remove <red>[amount]</red> <yellow>[currency]</yellow> from <gold>[player]</gold>."
             },
             "balance": {
-                "success": {
-                    "msg": "%info% %prefix_main% %dot% <gold>[player]</gold>'s <yellow>[currency]</yellow> balance is <green>[balance]</green>."
-                }
+                "success": "%info% %prefix_main% %dot% <gold>[player]</gold>'s <yellow>[currency]</yellow> balance is <green>[balance]</green>."
             },
             "reset": {
-                "success": {
-                    "msg": "%success% %prefix_main% %dot% Reset <gold>[player]</gold>'s <yellow>[currency]</yellow> balance."
-                },
-                "failed": {
-                    "msg": "%error% %prefix_main% %dot% <red>Failed to reset <gold>[player]</gold>'s <yellow>[currency]</yellow> balance.</red>"
-                }
+                "success": "%success% %prefix_main% %dot% Reset <gold>[player]</gold>'s <yellow>[currency]</yellow> balance.",
+                "failed": "%error% %prefix_main% %dot% <red>Failed to reset <gold>[player]</gold>'s <yellow>[currency]</yellow> balance.</red>"
             }
         }
     }
