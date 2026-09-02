@@ -2,13 +2,13 @@
     "UPDATER": {
         "TASK": {
             "lobby": {
-                "TASKS": "minestom-server, fragment.lobby"
+                "TASKS": "minestom-server, fragment.lobby, fragment.nova-client, fragment.economy"
             },
             "freeze-tag": {
-                "TASKS": "minestom-server, fragment.nova-host, minigame.freeze-tag"
+                "TASKS": "minestom-server, fragment.nova-host, fragment.nova-client, minigame.freeze-tag, fragment.economy"
             },
             "bridge-fight": {
-                "TASKS": "minestom-server, fragment.nova-host, minigame.bridge-fight"
+                "TASKS": "minestom-server, fragment.nova-host, fragment.nova-client, minigame.bridge-fight, fragment.economy"
             }
         }
     }

@@ -25,6 +25,12 @@
                     "remoteProjectName": "fragment-nova-host",
                     "remoteBranchName": "development",
                     "localFileName": "fragments/minestom-fragment-nova-host.jar"
+                },
+                "economy": {
+                    "ACTION": "default",
+                    "remoteProjectName": "fragment-economy",
+                    "remoteBranchName": "development",
+                    "localFileName": "fragments/minestom-fragment-economy.jar"
                 }
             },
             "minigame": {
