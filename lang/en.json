@@ -10,5 +10,52 @@
                 }
             }
         }
+    },
+    "economy": {
+        "command": {
+            "player-not-found": {
+                "msg": "<gray>%info% %prefix_main% %dot% <red>Player not found.</red></gray>"
+            },
+            "invalid-amount": {
+                "msg": "<gray>%info% %prefix_main% %dot% <red>The amount must be greater than zero.</red></gray>"
+            },
+            "set": {
+                "success": {
+                    "msg": "<gray>%info% %prefix_main% %dot% Set <gold>[player]</gold>'s <yellow>[currency]</yellow> balance to <green>[amount]</green>.</gray>"
+                },
+                "failed": {
+                    "msg": "<gray>%info% %prefix_main% %dot% <red>Failed to set <gold>[player]</gold>'s <yellow>[currency]</yellow> balance.</red></gray>"
+                }
+            },
+            "add": {
+                "success": {
+                    "msg": "<gray>%info% %prefix_main% %dot% Added <green>[amount]</green> <yellow>[currency]</yellow> to <gold>[player]</gold>.</gray>"
+                },
+                "failed": {
+                    "msg": "<gray>%info% %prefix_main% %dot% <red>Failed to add <green>[amount]</green> <yellow>[currency]</yellow> to <gold>[player]</gold>.</red></gray>"
+                }
+            },
+            "remove": {
+                "success": {
+                    "msg": "<gray>%info% %prefix_main% %dot% Removed <red>[amount]</red> <yellow>[currency]</yellow> from <gold>[player]</gold>.</gray>"
+                },
+                "failed": {
+                    "msg": "<gray>%info% %prefix_main% %dot% <red>Failed to remove <red>[amount]</red> <yellow>[currency]</yellow> from <gold>[player]</gold>.</red></gray>"
+                }
+            },
+            "balance": {
+                "success": {
+                    "msg": "<gray>%info% %prefix_main% %dot% <gold>[player]</gold>'s <yellow>[currency]</yellow> balance is <green>[balance]</green>.</gray>"
+                }
+            },
+            "reset": {
+                "success": {
+                    "msg": "<gray>%info% %prefix_main% %dot% Reset <gold>[player]</gold>'s <yellow>[currency]</yellow> balance.</gray>"
+                },
+                "failed": {
+                    "msg": "<gray>%info% %prefix_main% %dot% <red>Failed to reset <gold>[player]</gold>'s <yellow>[currency]</yellow> balance.</red></gray>"
+                }
+            }
+        }
     }
 }
