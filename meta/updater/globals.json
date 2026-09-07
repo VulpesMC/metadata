@@ -31,6 +31,12 @@
                     "remoteProjectName": "fragment-economy",
                     "remoteBranchName": "development",
                     "localFileName": "fragments/minestom-fragment-economy.jar"
+                },
+                "cosmetics": {
+                    "ACTION": "default",
+                    "remoteProjectName": "fragment-cosmetics",
+                    "remoteBranchName": "development",
+                    "localFileName": "fragments/minestom-fragment-cosmetics.jar"
                 }
             },
             "minigame": {
