@@ -9,6 +9,9 @@
             },
             "bridge-fight": {
                 "TASKS": "minestom-server, fragment.nova-host, fragment.nova-client, minigame.bridge-fight, fragment.economy"
+            },
+            "bauserver": {
+                "TASKS": "paper.fragments.bob"
             }
         }
     }

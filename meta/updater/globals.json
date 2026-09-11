@@ -52,6 +52,16 @@
                     "remoteBranchName": "development",
                     "localFileName": "fragments/minigames-mg-bridge-fight.jar"
                 }
+            },
+            "paper": {
+                "fragments": {
+                    "bob": {
+                        "ACTION": "default",
+                        "remoteProjectName": "fragment-paper-bob",
+                        "remoteBranchName": "development",
+                        "localFileName": "fragments/paper-fragment-paper-bob.jar"
+                    }
+                }
             }
         }
     }
