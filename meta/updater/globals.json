@@ -61,6 +61,12 @@
                         "remoteBranchName": "development",
                         "localFileName": "fragments/paper-fragment-paper-bob.jar"
                     }
+                },
+                "crusher": {
+                    "ACTION": "default",
+                    "remoteProjectName": "paper-crusher",
+                    "remoteBranchName": "development",
+                    "localFileName": "plugins/paper-paper-crusher.jar"
                 }
             }
         }
